@@ -46,11 +46,11 @@ body {
   padding-left:7px;
 }
 .main_sidebar ul li:hover {
-  background:#167696;
+  background:hsl(210, 20%, 30%);
+  cursor: pointer;
 }
 .main_sidebar ul li a:hover {
   color:#fff;
-  text-decoration: underline;
 }
 .main_sidebar ul li:hover i {
   color:#fff;

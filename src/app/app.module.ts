@@ -18,7 +18,8 @@ import { MatIconModule } from "@angular/material/icon";
 import { ThemeToggleComponent } from "./theme-toggle/theme-toggle.component";
 import { MatSlideToggleModule } from "@angular/material/slide-toggle";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
-
+import { UserCircleProfileComponent } from "./user-profile/user-profile.component";
+import { NbUserModule } from "@nebular/theme";
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +32,7 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     NavigationComponent,
     AttendanceComponent,
     ThemeToggleComponent,
+    UserCircleProfileComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
@@ -44,6 +46,7 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     AppRoutingModule,
     MatSlideToggleModule,
     FontAwesomeModule,
+    NbUserModule,
   ],
 })
 export class AppModule {}
