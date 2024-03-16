@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Dashboard</h1>
+
+  <!-- Quick Stats Overview -->
+  <div class="quick-stats">
+    <div class="stat-card">
+      <h2>Total Students</h2>
+      <p>{{ totalStudents }}</p>
+    </div>
+    <div class="stat-card">
+      <h2>Upcoming Classes</h2>
+      <p>{{ upcomingClasses }}</p>
+    </div>
+  </div>
+
+  <!-- Navigation Menu -->
+  <div class="navigation-menu">
+    <!-- Add links to navigate to different parts of the system -->
+    <ul>
+      <li><a routerLink="/student">Students</a></li>
+      <li><a routerLink="/course">Courses</a></li>
+      <li><a routerLink="/enrollment">Enrollment</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+  </div>
+</div>
