@@ -1,0 +1,39 @@
+.container {
+  margin-left: 350px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.quick-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navigation-menu {
+  margin-top: 20px;
+}
+
+.navigation-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation-menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navigation-menu ul li a {
+  text-decoration: none;
+  color: blue;
+}
