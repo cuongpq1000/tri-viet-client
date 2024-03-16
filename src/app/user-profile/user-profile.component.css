@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 7%;
+}
+.avatar {
+  width:7rem;
+  border-radius:100%;
+  text-align: center;
+  background-color: #808080;
+}
+.avatar span {
+  line-height: 7rem;
+  color:white;
+}
+p {
+  color: white
+}
+
+.edit-button {
+  display: inline-block;
+  background-color: #808080;
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.edit-button:hover {
+  background-color: 	#C0C0C0;
+}
