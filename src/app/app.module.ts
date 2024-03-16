@@ -13,7 +13,12 @@ import { PaymentComponent } from "./payment/payment.component";
 import { StudentComponent } from "./student/student.component";
 import { TestResultComponent } from "./test-result/test-result.component";
 import { AttendanceComponent } from "./attendance/attendance.component";
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from "./app-routing.module";
+import { MatIconModule } from "@angular/material/icon";
+import { ThemeToggleComponent } from "./theme-toggle/theme-toggle.component";
+import { MatSlideToggleModule } from "@angular/material/slide-toggle";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,16 +30,20 @@ import { AppRoutingModule } from './app-routing.module';
     TestResultComponent,
     NavigationComponent,
     AttendanceComponent,
+    ThemeToggleComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
   imports: [
+    MatIconModule,
     BrowserModule,
     FormsModule,
     HttpClientModule,
     RouterModule,
     NgbModule,
     AppRoutingModule,
+    MatSlideToggleModule,
+    FontAwesomeModule,
   ],
 })
 export class AppModule {}
